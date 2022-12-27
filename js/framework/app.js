@@ -55,6 +55,8 @@ app.stage = {
 	},
 	_construct_: function (){
 
+        console.log("CONSTRUCT")
+
 		window.parent.alert = function (){return false}
 
         var _this = this,
@@ -65,7 +67,7 @@ app.stage = {
         trackData.start = _this.getDate();
 
         try {
-            var missingData = receiveFromMobile(message);
+            // var missingData = receiveFromMobile(message);
             console.log("Did this return anything??? How?? ", missingData);
             this.options.trackingData.presentation_name = "a"; //missingData.presentation_name;
             this.options.trackingData.employee_name = "b"; //missingData.employee_name;
@@ -86,6 +88,7 @@ app.stage = {
 
 		$.getJSON('js/framework/flows.json').done(function (_data_){
 			_this.flowjson = _data_;
+            console.log("CONSTRUCT -> INIT")
 			_this.init(_this.options.currentFlow, _this.options.currentScreen);
 		});
 	},
@@ -494,6 +497,8 @@ app.stage = {
 
 			//Global link
 			$(document).on(_this.options.eventsEnd, '[data-link]:not(".disable")', function (){
+
+                console.log("Event ended?", _this.options.eventsEnd)
                     
                 var padHome = $('[psd-name="home"]'),
                     padMinmenu = $('[psd-name="min_menu"]');
@@ -864,10 +869,14 @@ app.stage = {
             
 			//Open Flow Window
             $(document).on(_this.options.eventsEnd, '#menu div[psd-name="vs"]:not(.show)', function (){
+                console.log("Something about 'Open Flow Window?")
+
                 if(Object.keys(ARGO.flowjson[0]).length == 2) {
                     if(Object.keys(ARGO.flowjson[0]).indexOf(ARGO.options.currentFlow) == 0) {
+                        console.log("First open flow init")
                         ARGO.init(Object.keys(ARGO.flowjson[0])[1], 0);
                     } else if(Object.keys(ARGO.flowjson[0]).indexOf(ARGO.options.currentFlow) == 1) {
+                        console.log("Secon open flow init")
                         ARGO.init(Object.keys(ARGO.flowjson[0])[0], 0);
                     }
                 } else if(Object.keys(ARGO.flowjson[0]).length > 2) {
@@ -920,6 +929,7 @@ app.stage = {
                                                             _this.swipe('enable');
                                                         }
                                                     });
+                                                    console.log("Third open flow init")
                                                 ARGO.init(this.innerHTML, 0);
                                             })
                                             $('[btn-flow-close]').off('click').on('click', function() {

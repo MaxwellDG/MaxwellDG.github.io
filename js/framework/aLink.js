@@ -42,6 +42,8 @@ var aLink = {
     subRightPad: null,
     subLeftPad: null,
     init: function(menuContent) {
+        console.log("A LINK SCREEN INIT")
+
         this.padHome =  this.checkHome();
         this.padPicto =  this.checkPicto();
         this.padMin =  this.checkMin();

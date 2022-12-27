@@ -24,5 +24,6 @@ $('#menu .subMenu').on('touchend', function(e){
     }, 100)
 })
 $("#menu .home").off("touchstart").on("touchstart",function(){
+	console.log("Theme 2 init thing")
 	ARGO.init("flow1",0);
 });

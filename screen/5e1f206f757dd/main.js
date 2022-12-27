@@ -1,10 +1,13 @@
 $("[path='5e1f206f757dd']  #lay6").off("touchstart").on("touchstart", function () {
+	console.log("INIT some kind of main flow screen thing? 1")
 	ARGO.init("flow2", 1)
 });
 $("[path='5e1f206f757dd']  #lay7").off("touchstart").on("touchstart", function () {
+	console.log("INIT some kind of main flow screen thing? 2")
 	ARGO.init("flow3", 1)
 });
 $("[path='5e1f206f757dd']  #lay8").off("touchstart").on("touchstart", function () {
+	console.log("INIT some kind of main flow screen thing? 3")
 	ARGO.init("flow4", 1)
 });
 $('[path="5e1f206f757dd"] #lay9, [path="5e1f206f757dd"] #lay10, [path="5e1f206f757dd"] #lay11, [path="5e1f206f757dd"] #lay12').velocity({

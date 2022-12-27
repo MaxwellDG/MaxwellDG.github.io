@@ -5,6 +5,7 @@ var aStatus = {
     flowbuttons: null,
     /* Add flow buttons and ref style */
     init: function() {
+        console.log("INIT aSTATUS")
         $.getJSON('js/framework/config.json').done(function (_status_) {
             this.allFlows = Object.keys(ARGO.flowjson[0]).length;
             this.thisFlow = Object.keys(ARGO.flowjson[0]);
@@ -23,6 +24,7 @@ var aStatus = {
                     $('#stage .flowButtons div[data-flow=' + ARGO.options.currentFlow + ']').addClass('inReview');
                 }
                 $('#stage .flowButtons div:not(.inReview)').off('click').on('click', function() {
+                    console.log("aSTATUS init ARGO?")
                     ARGO.init($(this).attr('data-flow'), 0);
                 });
             }
