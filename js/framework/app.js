@@ -66,13 +66,14 @@ app.stage = {
 
         try {
             var missingData = receiveFromMobile(message);
+            console.log("Did this return anything??? How?? ", missingData);
             this.options.trackingData.presentation_name = "a"; //missingData.presentation_name;
             this.options.trackingData.employee_name = "b"; //missingData.employee_name;
             this.options.trackingData.physician.first_name = "c"; //missingData.physician.first_name;
             this.options.trackingData.physician.last_name = "d"; //missingData.physician.last_name;
             this.options.trackingData.isSynced = false; //missingData.physician.last_name;
         } catch (err) {
-            console.log('The variable can\'t be sent yet.');
+            console.log('The variable can\'t be sent yet.', err);
         }
 
 		dom.stage = $('<div>',{id: "stage"}).appendTo(document.body);
@@ -89,6 +90,7 @@ app.stage = {
 		});
 	},
 	init: function (currentFlow, screen){
+        console.log("init...")
 
 		var _this = this;
 
@@ -98,14 +100,17 @@ app.stage = {
 		this.options.currentFlow = currentFlow;
 
 		if ('ontouchstart' in window){
+            console.log("ontouchstart triggered")
 			this.options.events = "touchstart";
 			this.options.eventsEnd = "touchend";
 		}else{
+            console.log("mousedown triggered")
 			this.options.events = "mousedown";
 			this.options.eventsEnd = "mouseup";
 		}
 
 		this.loadMenu(function (){
+            console.log("Called init and then loadContent plus menuBehaviour")
             _this.loadContent(currentFlow, screen);
             _this.menuBehavior(_this.options.flow[0].menu);
             //AL.init();
@@ -116,7 +121,7 @@ app.stage = {
 
 			var current = this.options.flow[flow];
 
-			if (current.hasOwnProperty('id')){_this.options.linkScreen[current.id] = flow - 1;}
+			if (current.hasOwnProperty('id')) _this.options.linkScreen[current.id] = flow - 1;
 
 		}
 		
