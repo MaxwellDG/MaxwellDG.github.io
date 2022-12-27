@@ -1,0 +1,1440 @@
+[
+	{
+		"flow1": [
+			{
+				"theme": "theme1",
+				"event": "touchstart",
+				"menu": {
+					"chapter": {
+						"10": {
+							"screen": {
+								"5e1f206f757dd": {
+									"hideBtnSecondary": true
+								}
+							},
+							"hideSecondary": true,
+							"hidePrimary": false,
+							"hideBtnPrimary": true
+						}
+					},
+					"hideSecondary": false,
+					"hidePrimary": false
+				}
+			},
+			{
+				"id": "5e1f206f757dd",
+				"chapter": 10,
+				"description": "1_Home_1",
+				"name_chapter": "Home",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": false,
+				"swipeNext": false,
+				"original_id": "5e1f206f757dd",
+				"flowmaker": {
+					"fm_screen_id": "5e1f206f757dd",
+					"fm_master_screen_id": "5e1f206f757dd",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow1",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f206f757dd",
+					"fm_position_id": "5e1f206f757dd",
+					"fm_level_importance": "std",
+					"fm_chapter": "Home",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f206f757dd_full.png",
+					"fm_datatrackname": "1_Home_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": ""
+			}
+		],
+		"flow2": [
+			{
+				"theme": "theme2",
+				"event": "touchstart",
+				"menu": {
+					"chapter": {
+						"10": {
+							"screen": {
+								"5e1f206742af3": {
+									"hideBtnSecondary": true
+								}
+							},
+							"hideSecondary": true,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						},
+						"20": {
+							"screen": {
+								"5e1f207c46464": {
+									"hideBtnSecondary": true
+								},
+								"5e1f2070b9e88": {
+									"hideBtnSecondary": false
+								}
+							},
+							"hideSecondary": false,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						},
+						"30": {
+							"screen": {
+								"5e1f204db709c": {
+									"hideBtnSecondary": true
+								},
+								"5e1f2080d24a6": {
+									"hideBtnSecondary": false
+								}
+							},
+							"hideSecondary": false,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						},
+						"40": {
+							"screen": {
+								"5e1f205189b2f": {
+									"hideBtnSecondary": true
+								},
+								"5e1f2033e3e25": {
+									"hideBtnSecondary": false
+								},
+								"5e1f203643211": {
+									"hideBtnSecondary": false
+								}
+							},
+							"hideSecondary": false,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						},
+						"50": {
+							"screen": {
+								"5e1f2053ea5ba": {
+									"hideBtnSecondary": true
+								}
+							},
+							"hideSecondary": true,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						},
+						"60": {
+							"screen": {
+								"5e1f207e07265": {
+									"hideBtnSecondary": true
+								},
+								"c5d5e34b1b3c7": {
+									"hideBtnSecondary": false
+								}
+							},
+							"hideSecondary": false,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						}
+					},
+					"hideSecondary": false,
+					"hidePrimary": false
+				}
+			},
+			{
+				"id": "5e1f206742af3",
+				"chapter": 10,
+				"description": "2_Contraindications_1",
+				"name_chapter": "Contraindications",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": false,
+				"swipeNext": "5e1f207c46464",
+				"original_id": "5e1f206742af3",
+				"flowmaker": {
+					"fm_screen_id": "5e1f206742af3",
+					"fm_master_screen_id": "5e1f206742af3",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow2",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f206742af3",
+					"fm_position_id": "5e1f206742af3",
+					"fm_level_importance": "std",
+					"fm_chapter": "Contraindications",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f206742af3_full.png",
+					"fm_datatrackname": "2_Contraindications_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.1"
+			},
+			{
+				"id": "5e1f207c46464",
+				"chapter": 20,
+				"description": "2_Global_data_1",
+				"name_chapter": "Global data",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f206742af3",
+				"swipeNext": "5e1f2070b9e88",
+				"original_id": "5e1f207c46464",
+				"flowmaker": {
+					"fm_screen_id": "5e1f207c46464",
+					"fm_master_screen_id": "5e1f207c46464",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow2",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f207c46464",
+					"fm_position_id": "5e1f207c46464",
+					"fm_level_importance": "std",
+					"fm_chapter": "Global data",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f207c46464_full.png",
+					"fm_datatrackname": "2_Global_data_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.2"
+			},
+			{
+				"id": "5e1f2070b9e88",
+				"chapter": 20,
+				"description": "2_Global_data_2_Guidelines",
+				"name_chapter": "Global data",
+				"name_subChapter": "Guidelines",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f207c46464",
+				"swipeNext": "5e1f204db709c",
+				"original_id": "5e1f2070b9e88",
+				"flowmaker": {
+					"fm_screen_id": "5e1f2070b9e88",
+					"fm_master_screen_id": "5e1f2070b9e88",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow2",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f2070b9e88",
+					"fm_position_id": "5e1f2070b9e88",
+					"fm_level_importance": "std",
+					"fm_chapter": "Global data",
+					"fm_sub_chapter": "Guidelines",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f2070b9e88_full.png",
+					"fm_datatrackname": "2_Global_data_2_Guidelines",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.3-R.4"
+			},
+			{
+				"id": "5e1f204db709c",
+				"chapter": 30,
+				"description": "2_Efficacy_1",
+				"name_chapter": "Efficacy",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f2070b9e88",
+				"swipeNext": "5e1f2080d24a6",
+				"original_id": "5e1f204db709c",
+				"flowmaker": {
+					"fm_screen_id": "5e1f204db709c",
+					"fm_master_screen_id": "5e1f204db709c",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow2",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f204db709c",
+					"fm_position_id": "5e1f204db709c",
+					"fm_level_importance": "std",
+					"fm_chapter": "Efficacy",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f204db709c_full.png",
+					"fm_datatrackname": "2_Efficacy_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.4"
+			},
+			{
+				"id": "5e1f2080d24a6",
+				"chapter": 30,
+				"description": "2_Efficacy_2_Vs_Paroxetine",
+				"name_chapter": "Efficacy",
+				"name_subChapter": "Vs. Paroxetine",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f204db709c",
+				"swipeNext": "5e1f205189b2f",
+				"original_id": "5e1f2080d24a6",
+				"flowmaker": {
+					"fm_screen_id": "5e1f2080d24a6",
+					"fm_master_screen_id": "5e1f2080d24a6",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow2",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f2080d24a6",
+					"fm_position_id": "5e1f2080d24a6",
+					"fm_level_importance": "std",
+					"fm_chapter": "Efficacy",
+					"fm_sub_chapter": "Vs. Paroxetine",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f2080d24a6_full.png",
+					"fm_datatrackname": "2_Efficacy_2_Vs_Paroxetine",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.5"
+			},
+			{
+				"id": "5e1f205189b2f",
+				"chapter": 40,
+				"description": "2_Safety_1",
+				"name_chapter": "Safety",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f2080d24a6",
+				"swipeNext": "5e1f2033e3e25",
+				"original_id": "5e1f205189b2f",
+				"flowmaker": {
+					"fm_screen_id": "5e1f205189b2f",
+					"fm_master_screen_id": "5e1f205189b2f",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow2",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f205189b2f",
+					"fm_position_id": "5e1f205189b2f",
+					"fm_level_importance": "std",
+					"fm_chapter": "Safety",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f205189b2f_full.png",
+					"fm_datatrackname": "2_Safety_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.6-R.7-R.8"
+			},
+			{
+				"id": "5e1f2033e3e25",
+				"chapter": 40,
+				"description": "2_Safety_2_Side_effects",
+				"name_chapter": "Safety",
+				"name_subChapter": "Side effects",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f205189b2f",
+				"swipeNext": "5e1f203643211",
+				"original_id": "5e1f2033e3e25",
+				"flowmaker": {
+					"fm_screen_id": "5e1f2033e3e25",
+					"fm_master_screen_id": "5e1f2033e3e25",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow2",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f2033e3e25",
+					"fm_position_id": "5e1f2033e3e25",
+					"fm_level_importance": "std",
+					"fm_chapter": "Safety",
+					"fm_sub_chapter": "Side effects",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f2033e3e25_full.png",
+					"fm_datatrackname": "2_Safety_2_Side_effects",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.9"
+			},
+			{
+				"id": "5e1f203643211",
+				"chapter": 40,
+				"description": "2_Safety_3_Switch",
+				"name_chapter": "Safety",
+				"name_subChapter": "Switch",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f2033e3e25",
+				"swipeNext": "5e1f2053ea5ba",
+				"original_id": "5e1f203643211",
+				"flowmaker": {
+					"fm_screen_id": "5e1f203643211",
+					"fm_master_screen_id": "5e1f203643211",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow2",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f203643211",
+					"fm_position_id": "5e1f203643211",
+					"fm_level_importance": "std",
+					"fm_chapter": "Safety",
+					"fm_sub_chapter": "Switch",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f203643211_full.png",
+					"fm_datatrackname": "2_Safety_3_Switch",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.10"
+			},
+			{
+				"id": "5e1f2053ea5ba",
+				"chapter": 50,
+				"description": "2_Titration_1",
+				"name_chapter": "Titration",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f203643211",
+				"swipeNext": "5e1f207e07265",
+				"original_id": "5e1f2053ea5ba",
+				"flowmaker": {
+					"fm_screen_id": "5e1f2053ea5ba",
+					"fm_master_screen_id": "5e1f2053ea5ba",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow2",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f2053ea5ba",
+					"fm_position_id": "5e1f2053ea5ba",
+					"fm_level_importance": "std",
+					"fm_chapter": "Titration",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f2053ea5ba_full.png",
+					"fm_datatrackname": "2_Titration_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.11-R.12"
+			},
+			{
+				"id": "5e1f207e07265",
+				"chapter": 60,
+				"description": "2_Conclusion_1",
+				"name_chapter": "Conclusion",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f2053ea5ba",
+				"swipeNext": "c5d5e34b1b3c7",
+				"original_id": "5e1f207e07265",
+				"flowmaker": {
+					"fm_screen_id": "5e1f207e07265",
+					"fm_master_screen_id": "5e1f207e07265",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow2",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f207e07265",
+					"fm_position_id": "5e1f207e07265",
+					"fm_level_importance": "std",
+					"fm_chapter": "Conclusion",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f207e07265_full.png",
+					"fm_datatrackname": "2_Conclusion_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": ""
+			},
+			{
+				"id": "c5d5e34b1b3c7",
+				"chapter": 60,
+				"description": "2_Conclusion_2_Contraindications",
+				"name_chapter": "Conclusion",
+				"name_subChapter": "Contraindications",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f207e07265",
+				"swipeNext": false,
+				"original_id": "5e1f206742af3",
+				"flowmaker": {
+					"fm_screen_id": "c5d5e34b1b3c7",
+					"fm_master_screen_id": "c5d5e34b1b3c7",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow2",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f206742af3",
+					"fm_position_id": "c5d5e34b1b3c7",
+					"fm_level_importance": "std",
+					"fm_chapter": "Conclusion",
+					"fm_sub_chapter": "Contraindications",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f206742af3_full.png",
+					"fm_datatrackname": "2_Conclusion_2_Contraindications",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.1"
+			}
+		],
+		"flow3": [
+			{
+				"theme": "theme3",
+				"event": "touchstart",
+				"menu": {
+					"chapter": {
+						"10": {
+							"screen": {
+								"97487441eab9b": {
+									"hideBtnSecondary": true
+								}
+							},
+							"hideSecondary": true,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						},
+						"20": {
+							"screen": {
+								"5e1f204c70d05": {
+									"hideBtnSecondary": true
+								}
+							},
+							"hideSecondary": true,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						},
+						"30": {
+							"screen": {
+								"f7944d445975c": {
+									"hideBtnSecondary": true
+								}
+							},
+							"hideSecondary": true,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						},
+						"40": {
+							"screen": {
+								"5e1f205c37938": {
+									"hideBtnSecondary": false
+								},
+								"5e1f203512949": {
+									"hideBtnSecondary": true
+								}
+							},
+							"hideSecondary": false,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						},
+						"50": {
+							"screen": {
+								"ed15d64f7973f": {
+									"hideBtnSecondary": true
+								},
+								"05f58d4a4b21b": {
+									"hideBtnSecondary": false
+								},
+								"3b650f4ffb6b2": {
+									"hideBtnSecondary": false
+								}
+							},
+							"hideSecondary": false,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						},
+						"60": {
+							"screen": {
+								"5e1f205a1fe4e": {
+									"hideBtnSecondary": true
+								}
+							},
+							"hideSecondary": true,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						},
+						"70": {
+							"screen": {
+								"6f52e44139cb8": {
+									"hideBtnSecondary": true
+								},
+								"1eea2347a9f2c": {
+									"hideBtnSecondary": false
+								}
+							},
+							"hideSecondary": false,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						}
+					},
+					"hideSecondary": false,
+					"hidePrimary": false
+				}
+			},
+			{
+				"id": "5e1f206742af3",
+				"chapter": 10,
+				"description": "3_Contraindications_1",
+				"name_chapter": "Contraindications",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": false,
+				"swipeNext": "5e1f204c70d05",
+				"original_id": "5e1f206742af3",
+				"flowmaker": {
+					"fm_screen_id": "97487441eab9b",
+					"fm_master_screen_id": "97487441eab9b",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow3",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f206742af3",
+					"fm_position_id": "97487441eab9b",
+					"fm_level_importance": "std",
+					"fm_chapter": "Contraindications",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f206742af3_full.png",
+					"fm_datatrackname": "3_Contraindications_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.1"
+			},
+			{
+				"id": "5e1f204c70d05",
+				"chapter": 20,
+				"description": "3_Patient_case_1",
+				"name_chapter": "Patient case",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f206742af3",
+				"swipeNext": "5e1f2070b9e89",
+				"original_id": "5e1f204c70d05",
+				"flowmaker": {
+					"fm_screen_id": "5e1f204c70d05",
+					"fm_master_screen_id": "5e1f204c70d05",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow3",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f204c70d05",
+					"fm_position_id": "5e1f204c70d05",
+					"fm_level_importance": "std",
+					"fm_chapter": "Patient case",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f204c70d05_full.png",
+					"fm_datatrackname": "3_Patient_case_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": ""
+			},
+			{
+				"id": "5e1f2070b9e89",
+				"chapter": 30,
+				"description": "3_Guidelines_1",
+				"name_chapter": "Guidelines",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f204c70d05",
+				"swipeNext": "5e1f203512949",
+				"original_id": "5e1f2070b9e89",
+				"flowmaker": {
+					"fm_screen_id": "f7944d445975c",
+					"fm_master_screen_id": "f7944d445975c",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow3",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f2070b9e88",
+					"fm_position_id": "f7944d445975c",
+					"fm_level_importance": "std",
+					"fm_chapter": "Guidelines",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f2070b9e88_full.png",
+					"fm_datatrackname": "3_Guidelines_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.3-R.4"
+			},
+			{
+				"id": "5e1f203512949",
+				"chapter": 40,
+				"description": "3_Efficacy_1",
+				"name_chapter": "Safety",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f2070b9e89",
+				"swipeNext": "5e1f205c37938",
+				"original_id": "5e1f203512949",
+				"flowmaker": {
+					"fm_screen_id": "5e1f203512949",
+					"fm_master_screen_id": "5e1f203512949",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow3",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f203512949",
+					"fm_position_id": "5e1f203512949",
+					"fm_level_importance": "std",
+					"fm_chapter": "Safety",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f203512949_full.png",
+					"fm_datatrackname": "3_Efficacy_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.13"
+			},
+			{
+				"id": "5e1f205c37938",
+				"chapter": 40,
+				"description": "3_Efficacy_2_Evidence_of_effectiveness",
+				"name_chapter": "Efficacy",
+				"name_subChapter": "Evidence of effectiveness",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f203512949",
+				"swipeNext": "5e1f205189b2f",
+				"original_id": "5e1f205c37938",
+				"flowmaker": {
+					"fm_screen_id": "5e1f205c37938",
+					"fm_master_screen_id": "5e1f205c37938",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow3",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f205c37938",
+					"fm_position_id": "5e1f205c37938",
+					"fm_level_importance": "std",
+					"fm_chapter": "Efficacy",
+					"fm_sub_chapter": "Evidence of effectiveness",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f205c37938_full.png",
+					"fm_datatrackname": "3_Efficacy_2_Evidence_of_effectiveness",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.4"
+			},
+			{
+				"id": "5e1f205189b2f",
+				"chapter": 50,
+				"description": "3_Safety_1",
+				"name_chapter": "Safety",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f205c37938",
+				"swipeNext": "5e1f2033e3e25",
+				"original_id": "5e1f205189b2f",
+				"flowmaker": {
+					"fm_screen_id": "ed15d64f7973f",
+					"fm_master_screen_id": "ed15d64f7973f",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow3",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f205189b2f",
+					"fm_position_id": "ed15d64f7973f",
+					"fm_level_importance": "std",
+					"fm_chapter": "Safety",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f205189b2f_full.png",
+					"fm_datatrackname": "3_Safety_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.6-R.7-R.8"
+			},
+			{
+				"id": "5e1f2033e3e25",
+				"chapter": 50,
+				"description": "3_Safety_2_Side_effects",
+				"name_chapter": "Safety",
+				"name_subChapter": "Side effects",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f205189b2f",
+				"swipeNext": "5e1f203643211",
+				"original_id": "5e1f2033e3e25",
+				"flowmaker": {
+					"fm_screen_id": "05f58d4a4b21b",
+					"fm_master_screen_id": "05f58d4a4b21b",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow3",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f2033e3e25",
+					"fm_position_id": "05f58d4a4b21b",
+					"fm_level_importance": "std",
+					"fm_chapter": "Safety",
+					"fm_sub_chapter": "Side effects",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f2033e3e25_full.png",
+					"fm_datatrackname": "3_Safety_2_Side_effects",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.9"
+			},
+			{
+				"id": "5e1f203643211",
+				"chapter": 50,
+				"description": "3_Safety_3_Switch",
+				"name_chapter": "Safety",
+				"name_subChapter": "Switch",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f2033e3e25",
+				"swipeNext": "5e1f205a1fe4e",
+				"original_id": "5e1f203643211",
+				"flowmaker": {
+					"fm_screen_id": "3b650f4ffb6b2",
+					"fm_master_screen_id": "3b650f4ffb6b2",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow3",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f203643211",
+					"fm_position_id": "3b650f4ffb6b2",
+					"fm_level_importance": "std",
+					"fm_chapter": "Safety",
+					"fm_sub_chapter": "Switch",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f203643211_full.png",
+					"fm_datatrackname": "3_Safety_3_Switch",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.10"
+			},
+			{
+				"id": "5e1f205a1fe4e",
+				"chapter": 60,
+				"description": "3_Titration_1",
+				"name_chapter": "CHAPTER 80",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f203643211",
+				"swipeNext": "5e1f207e07265",
+				"original_id": "5e1f205a1fe4e",
+				"flowmaker": {
+					"fm_screen_id": "5e1f205a1fe4e",
+					"fm_master_screen_id": "5e1f205a1fe4e",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow3",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f205a1fe4e",
+					"fm_position_id": "5e1f205a1fe4e",
+					"fm_level_importance": "std",
+					"fm_chapter": "CHAPTER 80",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f205a1fe4e_full.png",
+					"fm_datatrackname": "3_Titration_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.11-R.12"
+			},
+			{
+				"id": "5e1f207e07265",
+				"chapter": 70,
+				"description": "3_Conclusion_1",
+				"name_chapter": "Conclusion",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f205a1fe4e",
+				"swipeNext": "1eea2347a9f2c",
+				"original_id": "5e1f207e07265",
+				"flowmaker": {
+					"fm_screen_id": "6f52e44139cb8",
+					"fm_master_screen_id": "6f52e44139cb8",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow3",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f207e07265",
+					"fm_position_id": "6f52e44139cb8",
+					"fm_level_importance": "std",
+					"fm_chapter": "Conclusion",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f207e07265_full.png",
+					"fm_datatrackname": "3_Conclusion_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": ""
+			},
+			{
+				"id": "1eea2347a9f2c",
+				"chapter": 70,
+				"description": "3_Conclusion_2_Contraindications",
+				"name_chapter": "Conclusion",
+				"name_subChapter": "Contraindications",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f207e07265",
+				"swipeNext": false,
+				"original_id": "5e1f206742af3",
+				"flowmaker": {
+					"fm_screen_id": "1eea2347a9f2c",
+					"fm_master_screen_id": "1eea2347a9f2c",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow3",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f206742af3",
+					"fm_position_id": "1eea2347a9f2c",
+					"fm_level_importance": "std",
+					"fm_chapter": "Conclusion",
+					"fm_sub_chapter": "Contraindications",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f206742af3_full.png",
+					"fm_datatrackname": "3_Conclusion_2_Contraindications",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.1"
+			}
+		],
+		"flow4": [
+			{
+				"theme": "theme4",
+				"event": "touchstart",
+				"menu": {
+					"chapter": {
+						"10": {
+							"screen": {
+								"3672f7485a6da": {
+									"hideBtnSecondary": true
+								}
+							},
+							"hideSecondary": true,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						},
+						"20": {
+							"screen": {
+								"5e1f2074634e5": {
+									"hideBtnSecondary": true
+								}
+							},
+							"hideSecondary": true,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						},
+						"30": {
+							"screen": {
+								"5e1f206e267ca": {
+									"hideBtnSecondary": false
+								}
+							},
+							"hideSecondary": false,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						},
+						"40": {
+							"screen": {
+								"1f09ab455a0f0": {
+									"hideBtnSecondary": true
+								},
+								"a92e964ddbc73": {
+									"hideBtnSecondary": false
+								},
+								"18e1374f18f01": {
+									"hideBtnSecondary": false
+								}
+							},
+							"hideSecondary": false,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						},
+						"50": {
+							"screen": {
+								"5e1f2063447b1": {
+									"hideBtnSecondary": true
+								}
+							},
+							"hideSecondary": true,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						},
+						"60": {
+							"screen": {
+								"5e1f20793a635": {
+									"hideBtnSecondary": true
+								},
+								"c231a843eb417": {
+									"hideBtnSecondary": false
+								}
+							},
+							"hideSecondary": false,
+							"hidePrimary": false,
+							"hideBtnPrimary": false
+						}
+					},
+					"hideSecondary": false,
+					"hidePrimary": false
+				}
+			},
+			{
+				"id": "5e1f206742af3",
+				"chapter": 10,
+				"description": "4_Contraindications_1",
+				"name_chapter": "Contraindications",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": false,
+				"swipeNext": "5e1f2074634e5",
+				"original_id": "5e1f206742af3",
+				"flowmaker": {
+					"fm_screen_id": "3672f7485a6da",
+					"fm_master_screen_id": "3672f7485a6da",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow4",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f206742af3",
+					"fm_position_id": "3672f7485a6da",
+					"fm_level_importance": "std",
+					"fm_chapter": "Contraindications",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f206742af3_full.png",
+					"fm_datatrackname": "4_Contraindications_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.1"
+			},
+			{
+				"id": "5e1f2074634e5",
+				"chapter": 20,
+				"description": "4_Guidelines_1",
+				"name_chapter": "Guidelines",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f206742af3",
+				"swipeNext": "5e1f206e267ca",
+				"original_id": "5e1f2074634e5",
+				"flowmaker": {
+					"fm_screen_id": "5e1f2074634e5",
+					"fm_master_screen_id": "5e1f2074634e5",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow4",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f2074634e5",
+					"fm_position_id": "5e1f2074634e5",
+					"fm_level_importance": "std",
+					"fm_chapter": "Guidelines",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f2074634e5_full.png",
+					"fm_datatrackname": "4_Guidelines_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.14"
+			},
+			{
+				"id": "5e1f206e267ca",
+				"chapter": 30,
+				"description": "4_Efficacy_1_Vs_Risperiodone",
+				"name_chapter": "Efficacy",
+				"name_subChapter": "Vs. Risperiodone",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f2074634e5",
+				"swipeNext": "5e1f205189b2f",
+				"original_id": "5e1f206e267ca",
+				"flowmaker": {
+					"fm_screen_id": "5e1f206e267ca",
+					"fm_master_screen_id": "5e1f206e267ca",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow4",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f206e267ca",
+					"fm_position_id": "5e1f206e267ca",
+					"fm_level_importance": "std",
+					"fm_chapter": "Efficacy",
+					"fm_sub_chapter": "Vs. Risperiodone",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f206e267ca_full.png",
+					"fm_datatrackname": "4_Efficacy_1_Vs_Risperiodone",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.15"
+			},
+			{
+				"id": "5e1f205189b2f",
+				"chapter": 40,
+				"description": "4_Safety_1",
+				"name_chapter": "Safety",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f206e267ca",
+				"swipeNext": "5e1f2033e3e25",
+				"original_id": "5e1f205189b2f",
+				"flowmaker": {
+					"fm_screen_id": "1f09ab455a0f0",
+					"fm_master_screen_id": "1f09ab455a0f0",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow4",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f205189b2f",
+					"fm_position_id": "1f09ab455a0f0",
+					"fm_level_importance": "std",
+					"fm_chapter": "Safety",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f205189b2f_full.png",
+					"fm_datatrackname": "4_Safety_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.6-R.7-R.8"
+			},
+			{
+				"id": "5e1f2033e3e25",
+				"chapter": 40,
+				"description": "4_Safety_2_Side_effects",
+				"name_chapter": "Safety",
+				"name_subChapter": "Side effects",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f205189b2f",
+				"swipeNext": "5e1f203643211",
+				"original_id": "5e1f2033e3e25",
+				"flowmaker": {
+					"fm_screen_id": "a92e964ddbc73",
+					"fm_master_screen_id": "a92e964ddbc73",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow4",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f2033e3e25",
+					"fm_position_id": "a92e964ddbc73",
+					"fm_level_importance": "std",
+					"fm_chapter": "Safety",
+					"fm_sub_chapter": "Side effects",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f2033e3e25_full.png",
+					"fm_datatrackname": "4_Safety_2_Side_effects",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.9"
+			},
+			{
+				"id": "5e1f203643211",
+				"chapter": 40,
+				"description": "4_Safety_3_Switch",
+				"name_chapter": "Safety",
+				"name_subChapter": "Switch",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f2033e3e25",
+				"swipeNext": "5e1f2063447b1",
+				"original_id": "5e1f203643211",
+				"flowmaker": {
+					"fm_screen_id": "18e1374f18f01",
+					"fm_master_screen_id": "18e1374f18f01",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow4",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f203643211",
+					"fm_position_id": "18e1374f18f01",
+					"fm_level_importance": "std",
+					"fm_chapter": "Safety",
+					"fm_sub_chapter": "Switch",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f203643211_full.png",
+					"fm_datatrackname": "4_Safety_3_Switch",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.10"
+			},
+			{
+				"id": "5e1f2063447b1",
+				"chapter": 50,
+				"description": "4_Titration_1",
+				"name_chapter": "Conclusion",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f203643211",
+				"swipeNext": "5e1f20793a635",
+				"original_id": "5e1f2063447b1",
+				"flowmaker": {
+					"fm_screen_id": "5e1f2063447b1",
+					"fm_master_screen_id": "5e1f2063447b1",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow4",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f2063447b1",
+					"fm_position_id": "5e1f2063447b1",
+					"fm_level_importance": "std",
+					"fm_chapter": "Conclusion",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f2063447b1_full.png",
+					"fm_datatrackname": "4_Titration_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.11-R.12"
+			},
+			{
+				"id": "5e1f20793a635",
+				"chapter": 60,
+				"description": "4_Conclusion_1",
+				"name_chapter": "CHAPTER 70",
+				"name_subChapter": "SCREEN 00",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f2063447b1",
+				"swipeNext": "c231a843eb417",
+				"original_id": "5e1f20793a635",
+				"flowmaker": {
+					"fm_screen_id": "5e1f20793a635",
+					"fm_master_screen_id": "5e1f20793a635",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow4",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f20793a635",
+					"fm_position_id": "5e1f20793a635",
+					"fm_level_importance": "std",
+					"fm_chapter": "CHAPTER 70",
+					"fm_sub_chapter": "SCREEN 00",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f20793a635_full.png",
+					"fm_datatrackname": "4_Conclusion_1",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": ""
+			},
+			{
+				"id": "c231a843eb417",
+				"chapter": 60,
+				"description": "4_Conclusion_2_Contraindications",
+				"name_chapter": "Conclusion",
+				"name_subChapter": "Contraindications",
+				"hidePrimary": false,
+				"hideSecondary": false,
+				"hideBtnPrimary": false,
+				"hideBtnSecondary": false,
+				"swipeBack": "5e1f20793a635",
+				"swipeNext": false,
+				"original_id": "5e1f206742af3",
+				"flowmaker": {
+					"fm_screen_id": "c231a843eb417",
+					"fm_master_screen_id": "c231a843eb417",
+					"fm_refer_to_screen_id": null,
+					"fm_flow_id": "flow4",
+					"fm_screen_name": null,
+					"fm_refer_to": "5e1f206742af3",
+					"fm_position_id": "c231a843eb417",
+					"fm_level_importance": "std",
+					"fm_chapter": "Conclusion",
+					"fm_sub_chapter": "Contraindications",
+					"fm_thumbnail": "http://dev.flowmaker.local/presentations/20aa7c70-79a9-46e6-8c44-0a7ecc53a4ff/e7227380-381b-4f79-8377-23030dc94444/media/5e1f206742af3_full.png",
+					"fm_datatrackname": "4_Conclusion_2_Contraindications",
+					"fm_category_id": null,
+					"fm_key_message": null,
+					"fm_objective": null,
+					"fm_selling_steps_id": null,
+					"fm_custom_data": null,
+					"fm_product_id": null,
+					"fm_reps_speech": null
+				},
+				"ref": "R.1"
+			}
+		]
+	}
+]

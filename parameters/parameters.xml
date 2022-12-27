@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Sequence xmlns="urn:param-schema" Id="Luye_Seroquel_20200205">
+	<Pages>
+		<Page pageid="1_Home_1" />
+		<Page pageid="2_Contraindications_1" />
+		<Page pageid="2_Global_data_1" />
+		<Page pageid="2_Global_data_2_Guidelines" />
+		<Page pageid="2_Efficacy_1" />
+		<Page pageid="2_Efficacy_2_Vs_Paroxetine" />
+		<Page pageid="2_Safety_1" />
+		<Page pageid="2_Safety_2_Side_effects" />
+		<Page pageid="2_Safety_3_Switch" />
+		<Page pageid="2_Titration_1" />
+		<Page pageid="2_Conclusion_1" />
+		<Page pageid="2_Conclusion_2_Contraindications" />
+		<Page pageid="3_Contraindications_1" />
+		<Page pageid="3_Patient_case_1" />
+		<Page pageid="3_Guidelines_1" />
+		<Page pageid="3_Efficacy_1" />
+		<Page pageid="3_Efficacy_2_Evidence_of_effectiveness" />
+		<Page pageid="3_Safety_1" />
+		<Page pageid="3_Safety_2_Side_effects" />
+		<Page pageid="3_Safety_3_Switch" />
+		<Page pageid="3_Titration_1" />
+		<Page pageid="3_Conclusion_1" />
+		<Page pageid="3_Conclusion_2_Contraindications" />
+		<Page pageid="4_Contraindications_1" />
+		<Page pageid="4_Guidelines_1" />
+		<Page pageid="4_Efficacy_1_Vs_Risperiodone" />
+		<Page pageid="4_Safety_1" />
+		<Page pageid="4_Safety_2_Side_effects" />
+		<Page pageid="4_Safety_3_Switch" />
+		<Page pageid="4_Titration_1" />
+		<Page pageid="4_Conclusion_1" />
+		<Page pageid="4_Conclusion_2_Contraindications" />
+	</Pages>
+</Sequence>
