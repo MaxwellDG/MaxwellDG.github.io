@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Container, CssBaseline, ThemeProvider } from "@mui/material";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./screens/main";
+import Contact from "./screens/contact";
+import NavBar from "./components/navbar";
+import theme from "./style/theme";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <BrowserRouter>
+        <Container sx={styles.container}>
+          <NavBar />
+          <Container sx={styles.innerContainer}>
+            <Routes>
+              <Route path="/" element={<Main />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+          </Container>
+        </Container>
+      </BrowserRouter>
+    </ThemeProvider>
   );
 }
+
+const styles = {
+  innerContainer: {
+    display: 'flex',  
+    flexGrow: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  container: {
+    display: 'flex',
+    flexDirection: 'column',
+    bgcolor: "secondary.light", 
+    height: "100vh" 
+  },
+};
 
 export default App;
