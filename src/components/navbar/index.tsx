@@ -17,7 +17,7 @@ function NavLink({ title, pathname, isActive }: NavLinkProps) {
     <Link
       title={title}
       to={pathname}
-      style={{ ...styles.link, textAlign: "end" }}
+      style={{ ...styles.link, textAlign: "center" }}
     >
       <Box sx={{ display: "inline-block" }}>
         <Typography variant="h5" sx={{ color: "text.primary" }}>

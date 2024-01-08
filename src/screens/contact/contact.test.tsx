@@ -1,5 +1,5 @@
 import { act, fireEvent, render, screen } from '@testing-library/react';
-import Contact from './';
+import Contact from '.';
 
 jest.useFakeTimers();
 

@@ -37,13 +37,14 @@ export default function CoinCard({
   return (
     <motion.div
       key={asset.asset_id_quote}
-      transition={{delay: 0.1 * index}}
-      initial={{opacity: 0, marginTop: 20}}
-      animate={{opacity: 1, marginTop: 0}}
-      exit={{opacity: 0}}
+      transition={{ delay: 0.1 * index }}
+      initial={{ opacity: 0, marginTop: 20 }}
+      animate={{ opacity: 1, marginTop: 0 }}
+      exit={{ opacity: 0 }}
     >
       <Paper elevation={10} sx={styles.paper}>
         <CardActionArea
+          data-testid="coin-card"
           onClick={() => setFocusedAsset(asset)}
           disabled={isFocused}
           sx={styles.clickablePaper}
@@ -60,6 +61,7 @@ export default function CoinCard({
           </Box>
         </CardActionArea>
         <IconButton
+          data-testid="button-fav"
           onClick={(e) => {
             e.stopPropagation();
             updateFavourites(asset.asset_id_quote);
@@ -70,7 +72,10 @@ export default function CoinCard({
           }}
           disableRipple
         >
-          <GradeIcon style={{ color: isFavourite ? "yellow" : "#242426" }} />
+          <GradeIcon
+            data-testid="icon-fav"
+            style={{ color: isFavourite ? "yellow" : "rgb(36,36,38)" }}
+          />
         </IconButton>
 
         {isFocused && <CoinDetails key={asset.asset_id_quote} asset={asset} />}
