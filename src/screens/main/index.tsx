@@ -10,35 +10,12 @@ const URL =
   "https://rest.coinapi.io/v1/exchangerate/USD?filter_asset_id=BTC,ADA,ETH,SOL,BNB";
 const FADE_MS = 500;
 
-const data = {
-  error: false,
-  rates: [
-    {
-      rate: 0.01215312532,
-      asset_id_quote: "ADA",
-      time: new Date(Date.now()),
-    },
-    {
-      rate: 0.01235316532,
-      asset_id_quote: "BTC",
-      time: new Date(Date.now()),
-    },
-    {
-      rate: 0.012333312532,
-      asset_id_quote: "SOL",
-      time: new Date(Date.now()),
-    },
-  ],
-};
-
-const error = null;
-
 preload(URL, coinAPIfetcher);
 
 export default function Main() {
-  // const { data, isLoading, error } = useSWR(URL, coinAPIfetcher, {
-  //   refreshInterval: 5000,
-  // });
+  const { data, error } = useSWR(URL, coinAPIfetcher, {
+    refreshInterval: 5000,
+  });
 
   const [focusedAsset, setFocusedAsset] = useState<CoinAPIAsset | null>(null);
   const [favouritesHash, setFavouritesHash] = useState<Record<string, boolean>>(
@@ -100,7 +77,6 @@ export default function Main() {
   };
 
   const filteredData = useMemo(() => {
-    // const filteredData = () => {
     // data hasn't loaded yet
     if (!data?.rates?.length) return [];
 
@@ -127,8 +103,7 @@ export default function Main() {
       });
     }
     return workingArray;
-    // };
-  }, [data, filters, focusedAsset, transitionDone]);
+  }, [data, filters, focusedAsset, transitionDone, favouritesHash]);
 
   return (
     <Box sx={styles.box}>
@@ -164,7 +139,7 @@ export default function Main() {
               : "Error. GG if this happens I definitely failed"}
           </Typography>
         ) : (
-          filteredData.map((data: CoinAPIAsset, i) => (
+          filteredData.map((data: CoinAPIAsset, i: number) => (
             <CoinCard
               key={data.asset_id_quote}
               index={i}

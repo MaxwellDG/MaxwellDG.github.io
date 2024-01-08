@@ -55,7 +55,7 @@ export default function CoinCard({
                 &nbsp;&nbsp;&nbsp;&nbsp;{asset.asset_id_quote}
                 &nbsp;&nbsp;&nbsp;&nbsp;
               </Typography>
-              <Typography>{(1 / asset.rate).toFixed(2)}</Typography>
+              <Typography>$ {(1 / asset.rate).toFixed(2)}</Typography>
             </div>
           </Box>
         </CardActionArea>

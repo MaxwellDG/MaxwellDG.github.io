@@ -32,7 +32,7 @@ export default function CoinDetails({ asset }: Props) {
 
   return (
     <motion.div
-      style={{ opacity: animateDone ? 1 : 0, width: '100%' }}
+      style={{ opacity: animateDone ? 1 : 0, width: "100%" }}
       initial={{ height: 0 }}
       animate={{ height: "auto" }}
       onAnimationComplete={() => toggleAnimateDone(true)}
@@ -53,20 +53,39 @@ export default function CoinDetails({ asset }: Props) {
           <Typography variant="subtitle1">Trading volumes:</Typography>
           <Box sx={[styles.textCon, styles.smallText]}>
             Monthly:&nbsp;
+            {/* TO REVIEWERS:
+              I noticed the coinAPI is returning weird numbers for total volume. 
+              I'm formatting it here, but I know in reality that wouldn't work
+            */}
             <Typography sx={[styles.dataText, styles.smallText]}>
-              $ {data?.length && numberWithCommas(data[0].volume_1mth_usd)} USD
+              ${" "}
+              {data?.length &&
+                numberWithCommas(
+                  (data[0].volume_1mth_usd / 10000).toFixed(2).substring(0, 12)
+                )}{" "}
+              USD
             </Typography>
           </Box>
           <Box sx={[styles.textCon, styles.smallText]}>
             Daily:&nbsp;
             <Typography sx={[styles.dataText, styles.smallText]}>
-              $ {data?.length && numberWithCommas(data[0].volume_1day_usd)} USD
+              ${" "}
+              {data?.length &&
+                numberWithCommas(
+                  (data[0].volume_1day_usd / 10000).toFixed(2).substring(0, 12)
+                )}{" "}
+              USD
             </Typography>
           </Box>
           <Box sx={[styles.textCon, styles.smallText]}>
             Hourly:&nbsp;
             <Typography sx={[styles.dataText, styles.smallText]}>
-              $ {data?.length && numberWithCommas(data[0].volume_1hrs_usd)} USD
+              ${" "}
+              {data?.length &&
+                numberWithCommas(
+                  (data[0].volume_1hrs_usd / 10000).toFixed(2).substring(0, 12)
+                )}{" "}
+              USD
             </Typography>
           </Box>
         </Box>
@@ -81,7 +100,7 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     height: 128,
-    width: '50%',
+    width: "50%",
   },
   innerBox: {
     display: "flex",
