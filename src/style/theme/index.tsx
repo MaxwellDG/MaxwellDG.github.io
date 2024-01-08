@@ -10,34 +10,36 @@ const theme = createTheme({
       light: "#3c64f6",
     },
     secondary: {
-      main: "#99dbea",
+      main: "#3d64f7",
       light: "#39395880",
     },
     text: {
       primary: "#FFFFFF",
+      secondary: '#9f9eb3'
     },
   },
   typography: {
     fontFamily: [
       "-apple-system",
       "BlinkMacSystemFont",
-      '"Segoe UI"',
+      "Segoe UI",
       "Roboto",
-      // TODO Inter and Poppins
+      "Oxygen",
+      "Ubuntu",
+      "Cantarell",
+      "Fira Sans",
+      "Droid Sans",
+      "Helvetica Neue",
+      "sans-serif",
     ].join(","),
   },
   components: {
-    MuiCssBaseline: {
-      styleOverrides: `
-        @font-face {
-          font-family: 'Inter';
-          font-style: normal;
-          font-display: swap;
-          font-weight: 400;
-          src: local('Inter-Regular'), url('../fonts/Inter/Inter-Regular.ttf') format('ttf');
-        }
-      `,
-    },
+    // Name of the component
+    MuiContainer: {
+      defaultProps: {
+        
+      }
+    }
   },
 });
 

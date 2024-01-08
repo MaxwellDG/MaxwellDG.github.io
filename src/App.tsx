@@ -3,21 +3,19 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./screens/main";
 import Contact from "./screens/contact";
 import NavBar from "./components/navbar";
-import theme from "./style/theme";
+import Theme from "./style/theme";
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={Theme}>
       <CssBaseline />
       <BrowserRouter>
         <Container sx={styles.container}>
           <NavBar />
-          <Container sx={styles.innerContainer}>
-            <Routes>
-              <Route path="/" element={<Main />} />
-              <Route path="/contact" element={<Contact />} />
-            </Routes>
-          </Container>
+          <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
         </Container>
       </BrowserRouter>
     </ThemeProvider>
@@ -25,17 +23,13 @@ function App() {
 }
 
 const styles = {
-  innerContainer: {
-    display: 'flex',  
-    flexGrow: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
   container: {
-    display: 'flex',
-    flexDirection: 'column',
-    bgcolor: "secondary.light", 
-    height: "100vh" 
+    display: "flex",
+    flexDirection: "column",
+    bgcolor: "secondary.light",
+    alignItems: "center",
+    minHeight: "100%",
+    pb: 2
   },
 };
 

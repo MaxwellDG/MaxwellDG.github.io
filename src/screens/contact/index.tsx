@@ -1,18 +1,29 @@
 import { Box, Button, TextField, Typography } from "@mui/material";
-import { useRef, useState } from "react";
+import { useState } from "react";
 
 export default function Contact() {
-  const formRef = useRef<HTMLFormElement>(null);
-
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [buttonText, setButtonText] = useState("Send");
+
+  // I dunno. this doesn't do anything. It's just to show that somethings happening on form submit
+  function mockDoSomethingWithForm() {
+    localStorage.setItem("name", name);
+    localStorage.setItem("email", email);
+    localStorage.setItem("message", message);
+  }
 
   function handleSend(e: React.FormEvent) {
     e.preventDefault();
-    if(formRef.current){
-      formRef.current.reset()
-    }
+    setButtonText("Received!");
+    mockDoSomethingWithForm();
+    setName("");
+    setEmail("");
+    setMessage("");
+    setTimeout(() => {
+      setButtonText("Send");
+    }, 5000);
   }
 
   return (
@@ -21,11 +32,13 @@ export default function Contact() {
       <Typography variant="subtitle1" sx={styles.subtitle}>
         Send us a message and we won't get back to you because this isn't real
       </Typography>
-      <form ref={formRef} onSubmit={handleSend}>
+      <form onSubmit={handleSend}>
         <Box sx={styles.form}>
           <TextField
+            id="Name"
             label="Name"
             value={name}
+            autoComplete="off"
             onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
               setName(event.target.value);
             }}
@@ -37,7 +50,9 @@ export default function Contact() {
             }}
           />
           <TextField
+            id="Email"
             label="Email"
+            autoComplete="off"
             variant="filled"
             value={email}
             onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
@@ -51,7 +66,9 @@ export default function Contact() {
             }}
           />
           <TextField
+            id="Message"
             label="Message"
+            autoComplete="off"
             variant="filled"
             value={message}
             onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
@@ -64,7 +81,9 @@ export default function Contact() {
               style: { color: "#fff" },
             }}
           />
-          <Button type="submit" sx={styles.button}>Send</Button>
+          <Button type="submit" sx={styles.button}>
+            {buttonText}
+          </Button>
         </Box>
       </form>
     </Box>
@@ -79,14 +98,17 @@ const styles = {
   },
   subtitle: {
     marginBottom: 5,
-    fontFamily: 'Inter'
   },
   field: {
     color: "text.primary",
   },
   button: {
-    bgcolor: 'primary.light',
-    color: 'text.primary',
-    marginTop: 5
-  }
+    bgcolor: "primary.light",
+    color: "text.primary",
+    marginTop: 5,
+    ":hover": {
+      bgcolor: 'primary.light',
+      color: "white",
+    },
+  },
 };
